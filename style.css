@@ -1,0 +1,42 @@
+body{
+    transition:background-color 8s;
+}
+
+body:hover{
+    background-color:rgb(145, 211, 255);
+}
+
+#header{
+    font-size: 70px;
+    font-family: 'Neonderthaw', cursive;
+}
+
+#take_snapshot_button{
+    border-style: none;
+    border-radius: 20px;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    transition: transform 1.5s, background-color 2s, color 2s;
+    margin-top: -10;
+}
+
+#take_snapshot_button:hover{
+    transform:scale(1.5);
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+canvas{
+    animation-name: glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    0%{box-shadow: 1px 1px 38px orange;}
+    33%{box-shadow: 1px 1px 38px white;}
+    66%{box-shadow: 1px 1px 38px green;}
+    100%{box-shadow: 1px 1px 38px orange;}
+}
