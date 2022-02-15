@@ -18,7 +18,7 @@ body:hover{
     font-size: 40px;
     background-color: cornflowerblue;
     color: aliceblue;
-    transition: transform 1.5s, background-color 2s, color 2s;
+    transition: transform 1s, background-color 1s, color 1s;
     margin-top: -10;
 }
 
