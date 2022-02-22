@@ -40,3 +40,19 @@ canvas{
     66%{box-shadow: 1px 1px 38px green;}
     100%{box-shadow: 1px 1px 38px orange;}
 }
+
+img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border-style: double;
+    border-width: 10px;
+}
+
+span img{
+    border-style: none;
+}
+
+span{
+    border:5px solid blue;
+}
